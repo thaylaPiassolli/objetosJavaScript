@@ -18,6 +18,15 @@
       saudacao: function() {
         console.log("Olá, meu nome é " + this.nome);
       } 
+    }
+
+    const livro = {
+      titulo: "Aprendendo JavaScript",
+      autor: "Ana Silva",
+      paginas: 320,
+      editora: "Editora Código",
+      disponivel: true
+    }
     </code></pre>
   
     <script>
@@ -28,7 +37,16 @@
           console.log("Olá, meu nome é " + this.nome);
         }
       };
-      pessoa.saudacao(); // Chama o método saudacao do objeto pessoa
+      
+      pessoa.saudacao();
+      const livro = {
+        titulo: "Aprendendo JavaScript",
+        autor: "Ana Silva",
+        paginas: 320,
+        editora: "Editora Código",
+        disponivel: true
+      };
+      console.log(livro); 
     </script>
   </body>
 </html>
